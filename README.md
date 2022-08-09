@@ -28,7 +28,7 @@ If you get an SSL error (likely on macOS), proceed to the "Install from local fi
 1. Open Krita
 2. Go to "Tools" -> "Scripts" -> "Import Python Plugin from Web"
 3. Paste the following URL into the text box:
-   `https://github.com/nottheswimmer/krita-copilot/archive/refs/tags/v1.0.0.zip`
+   `https://github.com/nottheswimmer/krita-copilot/archive/refs/tags/v1.0.1.zip`
 4. Click "OK"
 5. Click "Yes" when asked if you would like to enable the plugin
 6. Restart Krita (close and reopen)

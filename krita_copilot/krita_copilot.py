@@ -10,7 +10,7 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QSizePolicy, QScrollAr
 
 from .dependencies import ensure_dependencies, APP_DIR
 
-VERSION = "v1.0.0"
+VERSION = "v1.0.1"
 
 ensure_dependencies()
 
