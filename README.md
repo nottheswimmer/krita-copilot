@@ -26,7 +26,7 @@ Krita has been tested on Windows. Linux and MacOS may be supported, but this has
 1. Open Krita
 2. Go to "Tools" -> "Scripts" -> "Import Python Plugin from Web"
 3. Paste the following URL into the text box:
-   `https://github.com/nottheswimmer/krita-copilot`
+   `https://github.com/nottheswimmer/krita-copilot/archive/refs/tags/v1.0.0.zip`
 4. Click "OK"
 5. Click "Yes" when asked if you would like to enable the plugin
 6. Restart Krita (close and reopen)
