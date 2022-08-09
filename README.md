@@ -47,7 +47,7 @@ If you get an SSL error (likely on macOS), proceed to the "Install from local fi
 6. Restart Krita (close and reopen)
 7. **Windows**: Go to "Settings" -> "Configure Krita"
 
-   **MacOS**: Go to "Krita" -> "Preferences"
+   **macOS**: Go to "Krita" -> "Preferences"
 8. Scroll down on the left until you see "Python Plugin Manager" and click it
 9. Check boxes that say "Krita Copilot" - if there's two you can just click both.
 10. Click OK.
