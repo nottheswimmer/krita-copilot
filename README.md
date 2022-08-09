@@ -17,16 +17,18 @@ https://user-images.githubusercontent.com/29849378/183610010-ca7fc088-57d8-4d5f-
 
 ## Support
 
-Krita Copilot has been tested on Windows. Linux and MacOS may be supported, but this has not been tested.
+Krita Copilot has been tested on Windows and macOS. Linux may be supported, but this has not been tested.
 
 ## Installation
 
 ### Install from URL
 
+If you get an SSL error (likely on macOS), proceed to the "Install from local file" section.
+
 1. Open Krita
 2. Go to "Tools" -> "Scripts" -> "Import Python Plugin from Web"
 3. Paste the following URL into the text box:
-   `https://github.com/nottheswimmer/krita-copilot/archive/refs/tags/v1.0.0.zip`
+   `https://github.com/nottheswimmer/krita-copilot/archive/refs/tags/v1.0.1.zip`
 4. Click "OK"
 5. Click "Yes" when asked if you would like to enable the plugin
 6. Restart Krita (close and reopen)
@@ -43,10 +45,13 @@ Krita Copilot has been tested on Windows. Linux and MacOS may be supported, but 
 
    If done correctly, the krita_copilot.desktop file and krita_copilot directory should be in the "pykrita" folder.
 6. Restart Krita (close and reopen)
-7. Go to "Settings" -> "Configure Krita"
+7. **Windows**: Go to "Settings" -> "Configure Krita"
+
+   **MacOS**: Go to "Krita" -> "Preferences"
 8. Scroll down on the left until you see "Python Plugin Manager" and click it
 9. Check boxes that say "Krita Copilot" - if there's two you can just click both.
-10. Restart Krita (close and reopen)
+10. Click OK.
+11. Restart Krita (close and reopen)
 
 ### A successful installation
 
@@ -91,6 +96,9 @@ issue on GitHub.
 - Because Krita has no built-in support for third-party dependencies, the requirements are downloaded from pypi by a 
   script called dependencies.py and added to the PATH before they are imported. Those dependencies are stored in a
   directory where Krita Copilot also stores settings and downloaded images. The location of this directory varies by OS.
+- Because on macOS, Krita may not have valid SSL certificates for the Python environment, the script will fallback to
+  downloading a version of certifi over an insecure connection and verifying the download by calculating the SHA256
+  hash of the downloaded package. It will then use certificates from certifi to provide SSL context for future downloads.
 
 [1]: https://labs.openai.com/waitlist
 
