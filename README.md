@@ -90,7 +90,7 @@ issue on GitHub.
   the DALL·E 2 API.
 - Because Krita has no built-in support for third-party dependencies, the requirements are downloaded from pypi by a 
   script called dependencies.py and added to the PATH before they are imported. Those dependencies are stored in a
-  directory where Krita also stores settings and downloaded images. The location of this directory varies by OS.
+  directory where Krita Copilot also stores settings and downloaded images. The location of this directory varies by OS.
 
 [1]: https://labs.openai.com/waitlist
 
