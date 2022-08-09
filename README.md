@@ -2,6 +2,11 @@
 
 Krita Copilot is a plugin for Krita that enables you to use DALL·E 2 from within Krita.
 
+
+https://user-images.githubusercontent.com/29849378/183610010-ca7fc088-57d8-4d5f-a907-66809c305ef5.mp4
+
+
+
 ## Tips
 
 - Get access by signing up for the [DALL·E 2 waitlist][1].
