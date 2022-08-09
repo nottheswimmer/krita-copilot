@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/29849378/183610010-ca7fc088-57d8-4d5f-
 
 ## Support
 
-Krita has been tested on Windows. Linux and MacOS may be supported, but this has not been tested.
+Krita Copilot has been tested on Windows. Linux and MacOS may be supported, but this has not been tested.
 
 ## Installation
 
