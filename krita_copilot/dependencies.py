@@ -81,12 +81,6 @@ def my_urlretrieve(url, fp, retry_without_ssl=False):
                 else:
                     raise e
         else:
-            with open("/Users/quynhhanhh/Library/Application Support/krita/pykrita/krita_copilot/dump.txt", "w") as f:
-                import traceback
-                f.write(f"""
-                url: {url}
-                exception: {e}
-                traceback: {traceback.format_exc()}""")
             raise e
 
 
