@@ -1,3 +1,5 @@
+**ATTENTION: Krita Copilot has a dependency on a now defunct library I created called PyDalle, which can no longer be used to login to OpenAI. I could migrate this plugin to the official OpenAI API to continue Krita support, but as far as I know, nobody was using this anyway. If you're still interested in Krita Copilot please open an issue and I will consider migrating it to the official OpenAI API.**
+
 # Krita Copilot
 
 Krita Copilot is a plugin for Krita that enables you to use DALL·E 2 from within Krita.
